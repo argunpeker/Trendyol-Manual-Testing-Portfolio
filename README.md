@@ -19,15 +19,14 @@ The scope of this repository will be expanded with additional features and test 
 
 ## 📂 Repository Structure
 
+```
 trendyol-manual-testing/
-│
 ├── test-cases/
-│ └── login-test-cases.md
-│
+│   └── login-test-cases.md
 ├── bug-reports/
-│ └── login-bug-reports.md
-│
+│   └── login-bug-reports.md
 └── README.md
+
 
 
 ---
