@@ -27,6 +27,7 @@ Test Type: Manual Testing
 **Status:** Not Executed
 
 
+
 ## TC-02: Login attempt with invalid password
 
 **Precondition:**
@@ -48,6 +49,7 @@ Test Type: Manual Testing
 - **Status:** Not Executed
 
 
+
 ## TC-03: Login attempt with empty email field
 
 **Precondition:**
@@ -61,6 +63,7 @@ Test Type: Manual Testing
 - User should get ''E-posta adresinizi girin.'' message
 
 **Status:** Not Executed
+
 
 
 ## TC-04: Login attempt with invalid email
@@ -79,6 +82,7 @@ Test Type: Manual Testing
 - Invalid email format: "test@gmail"
 
 **Status:** Not Executed
+
 
 
 ## TC-05: Login attempt with an email that is not associated with any user account
@@ -100,6 +104,86 @@ Test Type: Manual Testing
 
 **Note:**
 - Behavior observed during manual testing on Trendyol web application
+
+
+
+## TC-06: Successful login with Google
+
+**Precondition:**
+- User is on the Trendyol login page
+- User has a Google account that is associated with a Trendyol user account
+
+**Test Steps:**
+1. Click on the ''Google ile devam et'' button
+2. Choose a Google account that is associated with a Trendyol user account
+3. Complete Google authentication if required
+
+
+**Expected Result:**
+- User should be logged in successfully
+- User should be directed to the home page
+
+**Test Data:**
+- a Google account that is associated with a Trendyol user account
+
+**Status:** Not Executed
+
+**Note:**
+- Behavior observed during manual testing on Trendyol web application
+  
+
+
+## TC-07: Successful password reset flow via "Şifrenizi mi unuttunuz?" option
+
+**Precondition:**
+- User is on the Trendyol login page
+- User has an existing Trendyol user account
+
+**Test Steps:**
+1. Enter a valid email address
+2. Click on the "Devam Et" button
+3. Click on the "Şifrenizi mi unuttunuz?" link
+4. Verify that the email address field is pre-filled or enter the valid email address if required
+5. Click on the "Şifremi yenile" button
+
+**Expected Result:**
+- User should see a confirmation message indicating that the password reset email has been sent
+- User should receive a password reset email
+
+**Test Data:**
+- Valid email address associated with a Trendyol user account
+
+**Status:** Not Executed
+
+**Note:**
+- Behavior observed during manual testing on Trendyol web application
+
+
+
+## TC-08: Login attempt with empty email field
+
+**Precondition:**
+- User is on the Trendyol login page
+
+
+**Test Steps:**
+1. Leave the email input field empty
+2. Click on the "Devam Et" button
+
+
+**Expected Result:**
+- Email input field should be highlighted with a red border 
+- User should see a validation message: "E-posta adresinizi girin."
+
+
+**Status:** Not Executed
+
+**Note:**
+- Behavior observed during manual testing on Trendyol web application
+
+
+
+
 
 
 
