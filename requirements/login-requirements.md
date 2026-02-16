@@ -22,6 +22,7 @@ Scenario: Successful login with valid credentials
 Given the user has an existing account  
 And the user is on the login page  
 When the user enters a registered email address and correct password 
+
 And clicks the "Giriş Yap" button 
 Then the user should be logged in successfully  
 And redirected to the home page
