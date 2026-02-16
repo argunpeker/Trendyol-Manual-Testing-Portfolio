@@ -1,9 +1,11 @@
-# Trendyol Login - Manual Test Cases
+# Trendyol Login – Bug Reports
 
 Application: Trendyol Web  
 Feature: Login  
-Test Type: Manual Testing
+Test Type: Manual Testing  
+Bug Tracking Style: Jira-like (Manual)
 ---
+
 
 ## Bug-01
 
