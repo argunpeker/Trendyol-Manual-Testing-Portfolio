@@ -1,9 +1,13 @@
-# Trendyol Login - Requirements
+# Trendyol Login Feature - Requirements
 
 Application: Trendyol Web  
 Feature: Login  
 Test Type: Manual Testing
 ---
+
+#### Note
+The requirements document was created after writing the login test cases and login bug reports, in order to demonstrate reverse-engineering skills and understanding of system behavior. User stories are related to the corresponding login test case number.
+
 
 
 ### User Story-01: Login with valid credentials
@@ -21,3 +25,4 @@ When the user enters a registered email address and correct password
 And clicks the "Giriş Yap" button  
 Then the user should be logged in successfully  
 And redirected to the home page
+
