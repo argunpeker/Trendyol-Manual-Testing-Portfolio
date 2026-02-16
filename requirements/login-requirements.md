@@ -26,3 +26,22 @@ And clicks the "Giriş Yap" button
 Then the user should be logged in successfully  
 And redirected to the home page
 
+
+
+### User Story-02: Login attempt with invalid password
+
+As a registered user  
+I want to get an error message indicating that my email or password is not correct when I log in using a valid email address and an invalid password  
+So that I can correct my password and successfully log in
+
+#### Acceptance Criteria (BDD)
+
+Scenario: Login attempt with invalid password
+Given the user has an existing account  
+And the user is on the login page  
+When the user enters a registered email address and an invalid password  
+And clicks the "Giriş Yap" button   
+Then the user should see an error message indicating that the email or password is incorrect
+
+**Note:** Acceptance Criteria are derived from observing the actual behavior of the Trendyol login page.
+
