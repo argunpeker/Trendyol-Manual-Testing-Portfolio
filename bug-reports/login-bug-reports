@@ -1,7 +1,7 @@
-# Trendyol Login – Bug Reports
+# Trendyol Login - Manual Test Cases
 
-Application: Trendyol Web
-Module: Login
+Application: Trendyol Web  
+Feature: Login  
 Test Type: Manual Testing
 ---
 
