@@ -3,7 +3,7 @@
 Application: Trendyol Web  
 Feature: Login  
 Test Type: Manual Testing  
-Bug Tracking Style: Jira-like (Manual)
+Bug Tracking Style: Jira (Manual)
 ---
 
 
@@ -49,42 +49,3 @@ Bug Tracking Style: Jira-like (Manual)
 
 
 
-## Bug-02
-
-**Title:** Error message persists after entering a valid email on login page
-
-**Status:** Open
-
-**Environment:**
-- Browser: Google Chrome 143.0.7499.194
-- OS: macOS
-
-**Precondition:**
-- User is on the Trendyol login page
-
-**Linked Test Case:**
-- TC-04: Login attempt with invalid email
-
-**Steps to Reproduce:**
-1. Enter an invalid email address (e.g. "test@gmail")
-2. Click on the "Devam Et" button
-3. Enter a valid email address (e.g. "validuser@gmail.com")
-4. Click on the "Devam Et" button
-
-**Actual Result:**
-- Error message remains displayed after entering a valid email, preventing the user from continuing
-
-**Expected Result:**
-- User should be able to continue after entering a valid email without receiving an error message
-
-**Test Data:**
-- Invalid email address: "test@gmail"
-- Valid email address: "validuser@gmail.com"
-
-**Severity:** Medium  
-**Priority:** Medium  
-
-**Note:**
-- This bug report is created for learning and portfolio purposes.
-- The issue is based on realistic test scenarios and expected application behavior.
- the user
