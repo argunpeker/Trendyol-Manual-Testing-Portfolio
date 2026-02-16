@@ -16,7 +16,7 @@ As a registered user
 I want to log in using a valid email address and password  
 So that I can access my account
 
-#### Acceptance Criteria
+#### Acceptance Criteria (BDD)
 
 Scenario: Successful login with valid credentials  
 Given the user has an existing account  
