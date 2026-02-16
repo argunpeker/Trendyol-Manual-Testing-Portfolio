@@ -123,3 +123,39 @@ Bug Tracking Style: Jira (Manual)
 **Note:**
 - This bug report is created for learning and portfolio purposes.
 - The issue is based on realistic test scenarios and expected application behavior.
+
+
+
+## Bug-04 
+
+**Title:** User is not directed back to login page after canceling login via Google (404 Error)
+
+**Status:** Open
+
+**Environment:**
+- Browser: Google Chrome 143.0.7499.194
+- OS: macOS
+
+**Precondition:**
+- User is on the Trendyol login page
+
+**Linked Test Case:**
+- TC-06: Successful login with Google
+
+**Steps to Reproduce:**
+1. Click on the ''Google ile devam et'' button
+2. Click on the browser back button (top-left corner)
+
+**Actual Result:**
+- User is redirected to a 404 Page Not Found screen
+  
+**Expected Result:**
+- User should be redirected back to the login page without encountering any error page
+  
+
+**Severity:** Low  
+**Priority:** Low  
+
+**Note:**
+- This bug report is created for learning and portfolio purposes.
+- The issue is based on realistic test scenarios and expected application behavior.
