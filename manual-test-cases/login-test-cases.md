@@ -95,8 +95,9 @@ Test Type: Manual Testing
 2. Click the "Devam Et" button
 
 **Expected Result:**
-- User should be redirected to the sign-up page to create a new account
-
+- User should be redirected to the sign-up page
+- The previously entered email address should be automatically filled in the email field of the sign-up form
+  
 **Test Data:**
 - Valid email format that is not associated with any user account: "testingacc@gmail.com"
 
