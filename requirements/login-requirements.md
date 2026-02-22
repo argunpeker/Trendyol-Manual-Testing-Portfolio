@@ -77,3 +77,73 @@ When the user enters an invalid email address
 And clicks the "Devam Et" button  
 Then the user should see a validation message indicating that the email address format is invalid
 
+
+
+### User Story-05: Login attempt with an email that is not associated with any user account
+
+As a user  
+I want to be redirected to the sign-up page when I enter an email that is not associated with any user account
+So that I can create a new account
+
+#### Acceptance Criteria (BDD)
+
+Scenario: Login attempt with an email that is not associated with any user account
+Given the user is on the login page
+When the user enters an unregistered email
+And clicks on the "Devam Et" button 
+Then the user should be redirected to sign-up page
+And the entered email address should be pre-filled in the sign-up form
+
+
+
+### User Story-06: Successful login with Google
+
+As a user  
+I want to log in using my Google account that is linked to my Trendyol account  
+So that I can access my account without entering my email and password manually
+
+#### Acceptance Criteria (BDD)
+
+Scenario: Successful login with Google
+Given the user is on the login page  
+And the user has a Google account linked to a Trendyol account  
+When the user clicks on the "Google ile devam et" button  
+And selects the linked Google account  
+And completes Google authentication successfully  
+Then the user should be logged in successfully  
+And the user should be redirected to the home page
+
+
+
+### User Story-07: Password reset request via "Şifrenizi mi unuttunuz?" option
+
+As a user  
+I want to click on the "Şifrenizi mi unuttunuz?" option and click on the "Şifremi yenile" button after seeing that the email address is pre-filled 
+So that I receive a password reset email to reset my password and access my account
+
+#### Acceptance Criteria (BDD)
+
+Scenario: Successful password reset flow via "Şifrenizi mi unuttunuz?" option
+Given the user is on the login page
+And has an existing user account
+When the user enters a registered email address
+And clicks on the "Devam et" button
+And clicks on the "Şifrenizi mi unuttunuz?" button
+And clicks on the "Şifremi yenile'' button after verifying that the email input field is pre-filled
+Then the user should see a confirmation message indicating that the password reset email has been sent
+And the user should receive a password reset email
+
+
+
+### User Story-08: 
+
+As a user  
+I want to 
+So that
+
+#### Acceptance Criteria (BDD)
+
+Scenario:  
+Given 
+When 
+Then 
