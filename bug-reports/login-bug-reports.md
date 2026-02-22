@@ -102,8 +102,8 @@ Bug Tracking Style: Jira (Manual)
 - User is on the Trendyol login page
 
 **Linked Test Case:**
-- TC-07: Successful password reset flow via "Şifrenizi mi unuttunuz?" option
-
+- TC-07: Password reset request via "Şifrenizi mi unuttunuz?" option
+  
 **Steps to Reproduce:**
 1. Enter an email address that is associated with user account (e.g. "testing@gmail.com")
 2. Click on the "Devam Et" button
