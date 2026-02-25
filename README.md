@@ -29,16 +29,11 @@ This repository demonstrates my structured manual testing practice on the Trendy
 ## 📂 Documentation Structure
 
 trendyol-manual-testing/
-├
-├── requirements/
-├
-├── test-cases/
-├
-├── bug-reports/
-├
-├── traceability-matrix/
-├
-└── README.md
+├──   requirements/
+├──   test-cases/
+├──   bug-reports/
+├──   traceability-matrix/
+└──   README.md
 
 
 
