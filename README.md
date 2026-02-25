@@ -34,7 +34,7 @@ trendyol-manual-testing/
 ├── bug-reports/
 ├── traceability-matrix/
 └── README.md
----
+
 
 ## 🎯 Skills Demonstrated
 
