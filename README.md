@@ -1,75 +1,52 @@
 # Trendyol Manual Testing Portfolio
 
-This repository contains my manual testing practice based on the Trendyol web application.
-It demonstrates my understanding of manual test case design, negative and positive scenarios,
-and professional bug reporting. 
+This repository demonstrates my structured manual testing practice on the Trendyol web application, focusing on the Login feature.
 
 ---
 
 ## 📌 Project Scope
-- Application: Trendyol Web
-- Feature: Login
-- Test Type: Manual Testing
-- Approach: Black-box testing
 
-The scope of this repository will be expanded with additional features and test scenarios over time.
-
+- **Application:** Trendyol Web  
+- **Feature:** Login  
+- **Testing Type:** Manual Testing  
+- **Approach:** Black-Box Testing  
+- **Methodology:** ISTQB-based testing principles  
 
 ---
 
-## 📂 Repository Structure
+## 🧪 What This Project Demonstrates
 
-```
+- Structured Test Case Design (**Positive, Negative & Edge Cases**)  
+- Professional Bug Reporting (**Jira-style format**)  
+- Requirement Derivation & Reverse Engineering  
+- BDD-style Acceptance Criteria (**Given-When-Then**)  
+- Traceability Matrix Preparation  
+- Severity & Priority Assessment  
+- Functional & UI Validation Testing  
+
+---
+
+## 📂 Documentation Structure
+
 trendyol-manual-testing/
+├── requirements/
 ├── test-cases/
-│   └── login-test-cases.md
 ├── bug-reports/
-│   └── login-bug-reports.md
+├── traceability-matrix/
 └── README.md
-
-
-
----
-
-## 🧪 Test Cases
-The test cases cover:
-- Successful login with valid credentials
-- Invalid password scenario
-- Empty email validation
-- Invalid email format validation
-- Login attempt with a non-registered email address
-
-All test cases are written in a clear, structured format following ISTQB principles.
-
----
-
-## 🐞 Bug Reports
-The bug reports include:
-- Clear reproduction steps
-- Actual vs expected results
-- Environment details
-- Severity and priority assessment
-
-Bugs are written based on observed behavior during manual testing.
 
 ---
 
 ## 🎯 Skills Demonstrated
-- Manual test case design
-- Positive & negative testing
-- UI validation testing
-- Bug reporting
-- ISTQB-based testing mindset
+
+- Analytical Thinking  
+- Attention to Detail  
+- Structured Documentation  
+- Defect Lifecycle Understanding  
+- SDLC & STLC Knowledge  
 
 ---
 
-## 📚 Background
-- ISTQB Foundation Level certified
-- Familiar with Agile/Scrum concepts
-- Hands-on practice with manual testing documentation
+## 🏅 Certification
 
----
-
-## 🔍 Notes
-This project is created for learning and portfolio purposes.
-The application belongs to Trendyol and no proprietary data is used.
+- ISTQB Certified Tester – Foundation Level
