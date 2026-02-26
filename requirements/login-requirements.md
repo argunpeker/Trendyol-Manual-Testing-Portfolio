@@ -123,15 +123,15 @@ So that I receive a password reset email to reset my password and access my acco
 
 #### Acceptance Criteria (BDD)
 
-Scenario: Successful password reset flow via "Şifrenizi mi unuttunuz?" option
-Given the user is on the login page
-And has an existing user account
-When the user enters a registered email address
-And clicks on the "Devam et" button
-And clicks on the "Şifrenizi mi unuttunuz?" button
-And clicks on the "Şifremi yenile'' button after verifying that the email input field is pre-filled
-Then the user should see a confirmation message indicating that the password reset email has been sent
-And the user should receive a password reset email
+Scenario: Successful password reset flow via "Şifrenizi mi unuttunuz?" option  
+Given the user is on the login page  
+And has an existing user account  
+When the user enters a registered email address  
+And clicks on the "Devam et" button  
+And clicks on the "Şifrenizi mi unuttunuz?" button  
+And clicks on the "Şifremi yenile'' button after verifying that the email input field is pre-filled  
+Then the user should see a confirmation message indicating that the password reset email has been sent  
+And the user should receive a password reset email  
 
 
 
