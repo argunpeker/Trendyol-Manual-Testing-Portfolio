@@ -143,9 +143,9 @@ So that I can enter my email address and continue with the login flow
 
 #### Acceptance Criteria (BDD)
 
-Scenario: Login attempt with empty email field
-Given the user is on the login page
-When the user leaves the email input field empty
-And clicks on the "Devam et" button
-Then the email input field should be highlighted with a red border
-And a validation message should be displayed
+Scenario: Login attempt with empty email field  
+Given the user is on the login page  
+When the user leaves the email input field empty  
+And clicks on the "Devam et" button  
+Then the email input field should be highlighted with a red border  
+And a validation message should be displayed  
