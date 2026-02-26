@@ -135,15 +135,17 @@ And the user should receive a password reset email
 
 
 
-### User Story-08: 
+### User Story-08: Login attempt with empty email field
 
-As a user  
-I want to 
-So that
+As a user   
+I want to be notified when I attempt to log in without entering an email address  
+So that I can enter my email address and continue with the login flow
 
 #### Acceptance Criteria (BDD)
 
-Scenario:  
-Given 
-When 
-Then 
+Scenario: Login attempt with empty email field
+Given the user is on the login page
+When the user leaves the email input field empty
+And clicks on the "Devam et" button
+Then the email input field should be highlighted with a red border
+And a validation message should be displayed
